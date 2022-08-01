@@ -37,7 +37,7 @@ video table and HRMS table are linked to Employee_Info table through Emp_ID colu
 
 ## Database Dictionary
 ### Location Table
-This table was created to keep on track the work location of each employee since the organization is a Multinational Company which has a physical location in Malaysia, Thailand, Singapore, Indonesia, Vietnam, Philippines and Cambodia. The primary key of this table is Loc_ID which denotes each unique location as stated below:
+This table was created to keep on track the work location of each employee since the organization is a Multinational Company which was assumed to have a physical location in Malaysia, Thailand, Singapore, Indonesia, Vietnam, Philippines and Cambodia. The primary key of this table is Loc_ID which denotes each unique location as stated below:
 - “101” is Malaysia
 - “102” is Thailand
 - “103” is Singapore 
@@ -45,8 +45,6 @@ This table was created to keep on track the work location of each employee since
 - “105” is Vietnam
 - “106” is Philippines
 - “107” is Cambodia
-
-In addition, Post_code and Country are identified as minimum mandatory details for a location and hence have constraint “NOT NULL”.
 
 Column Name	| Description	| Data Type	| Constraints
 --- | --- | --- | --- 
