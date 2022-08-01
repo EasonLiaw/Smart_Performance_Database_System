@@ -144,3 +144,6 @@ Manager_remark	| Represents the comments given by manager on the employees perfo
 The view can be merged with the Employee_info table on the Emp_ID for further analysis and insights gathering based on the background details of the employee.
 
 Refer to the coding file named: SQL Coding.sql for more details about how the above tables and view are designed and linked together.
+
+## Legality
+This is an internship project made with 360DIGITMG for non-commercial uses ONLY. This project will not be used to generate any promotional or monetary value for me, the creator, or the user.
