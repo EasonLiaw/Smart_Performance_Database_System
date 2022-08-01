@@ -1,5 +1,7 @@
 # Smart_Performance_Database_System
 
+![image](https://user-images.githubusercontent.com/34255556/182154668-83fba14a-6b14-41f5-9ba6-5622f5e51ebd.png)
+
 In this project, we are using a relational database which contains multiple tables of data with rows and columns that are in a relation through special key fields. This database is more flexible and provides functionality, for instance, read, create, update and delete. Normally, this database adopts Structured Query Language (SQL), a standard and easy programming interface for database interaction. 
 In this case, there are three types of relationships exist in this relational database which are 
 1.	one to one
