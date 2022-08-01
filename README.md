@@ -13,11 +13,15 @@ In this case, there are three types of relationships exist in this relational da
 3.	many to one 
 - For many to one relationships, it states that more than one table record relates to another table record (Between "Video" and "HRMS" table and "Monthly Performance" view)
 
+---
+
 ## Why SQL?
 - It is the industry titan and most popular system worldwide for dealing with the relational and structured database.
 - The data samples used in this project is related in nature. The standard way of working with such databases is using SQL – the structured Query Language. It's also best for fast analytical queries.
 - SQL databases are long established with fixed schema design and a set structure. This difference in schema makes relational SQL databases a better option for applications that require multi-row transactions such as an accounting system or for legacy systems that were built for a relational structure. 
 - SQL is a mature technology and many experienced developers understand it. Because of this, great support is available for all SQL databases from their vendors. There are even a lot of independent consultants who can help with the SQL database for very large scale deployments.
+
+---
 
 ## Project Goals & Objectives
 ### Goals
@@ -29,6 +33,8 @@ In this case, there are three types of relationships exist in this relational da
 - Bring a more effective and flexible system to help HR extract data in various ways to evaluate Employee Performance
 - Be able to analyse get more insights from the HRMS and Employee data to identify and make improvements when needed
 
+---
+
 ## Database Schema
 ![image](https://user-images.githubusercontent.com/34255556/182132161-e861127f-80dc-4575-8605-cb54e27f9e50.png)
 
@@ -36,6 +42,8 @@ We have applied a relational database model in order to connect different entiti
 
 In a nutshell, management will be able to extract employees’ information, attendance status and monthly performances by location, department and more, easily as the
 video table and HRMS table are linked to Employee_Info table through Emp_ID column and location table is linked to Employee_Info table through Loc_ID column. 
+
+---
 
 ## Database Dictionary
 ### Location Table
@@ -144,6 +152,8 @@ Manager_remark	| Represents the comments given by manager on the employees perfo
 The view can be merged with the Employee_info table on the Emp_ID for further analysis and insights gathering based on the background details of the employee.
 
 Refer to the coding file named: SQL Coding.sql for more details about how the above tables and view are designed and linked together.
+
+---
 
 ## Legality
 This is an internship project made with 360DIGITMG for non-commercial uses ONLY. This project will not be used to generate any promotional or monetary value for me, the creator, or the user.
